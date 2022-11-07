@@ -47,7 +47,7 @@ def print_maze(maze):
         print('\n')
 
 
-
+print(maze)
 
 #starting points
 starting_height = int(random.random()*height)
@@ -80,7 +80,11 @@ maze[starting_height+1][starting_width] = wall
 
 
 
+# vanskelig delen av algoritmen
 
+
+while walls:
+    rand_walls:
 
 
 
