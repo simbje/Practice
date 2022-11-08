@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 from colorama import init, Fore
 import random
 
@@ -81,10 +75,9 @@ maze[starting_height+1][starting_width] = wall
 
 
 # vanskelig delen av algoritmen
-
+# While there are walls in the list pick a random wall from the list
 
 while walls:
-    rand_walls:
-
+    rand_walls = walls[int(random.random()*len(walls))-1]
 
 
